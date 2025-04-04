@@ -1,0 +1,310 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.1f1c1 (0cb3bd085a01) revision 832445'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16177 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2021.3.1f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/ALIENWARE/Desktop/AngryBird-master
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54176
+Successfully changed project path to: C:/Users/ALIENWARE/Desktop/AngryBird-master
+C:/Users/ALIENWARE/Desktop/AngryBird-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 39.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.1f1c1 (0cb3bd085a01)
+[Subsystems] Discovering subsystems at path D:/2021.3.1f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ALIENWARE/Desktop/AngryBird-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.6618
+Initialize mono
+Mono path[0] = 'D:/2021.3.1f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/2021.3.1f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2021.3.1f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2021.3.1f1c1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2021.3.1f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/2021.3.1f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012218 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.029 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1029ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (673ms)
+			LoadAssemblies (122ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (269ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (66ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.014423 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1120ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (130ms)
+		EndReloadAssembly (722ms)
+			LoadAssemblies (118ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (327ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1648 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (55.7 KB). Loaded Objects now: 2122.
+Memory consumption went from 72.0 MB to 72.0 MB.
+Total: 4.797600 ms (FindLiveObjects: 0.223700 ms CreateObjectMapping: 0.109200 ms MarkObjects: 4.345500 ms  DeleteObjects: 0.117000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 92660.692686 seconds.
+  path: Assets/Audio/Sound/Birds/Black/BlackBirdYell.ogg
+  artifactKey: Guid(6b57b0bfe8be60f429767ca7d3d90e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Birds/Black/BlackBirdYell.ogg using Guid(6b57b0bfe8be60f429767ca7d3d90e6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5ba2d8dd36049f5a08d59747bd4952') in 0.048625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.260185 seconds.
+  path: Assets/Audio/Sound/Birds/Black/BlackBirdHurt.ogg
+  artifactKey: Guid(348a835b8082fe740a5c7ed00a41142b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Birds/Black/BlackBirdHurt.ogg using Guid(348a835b8082fe740a5c7ed00a41142b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d891dbfe5c58544777060446397e3be') in 0.003613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 142.297903 seconds.
+  path: Assets/Audio/Sound/Birds/Black/眉兔.ogg
+  artifactKey: Guid(634ce28a891193d42a868cf64027a44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Birds/Black/眉兔.ogg using Guid(634ce28a891193d42a868cf64027a44a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066322ba2c804bce02db235746d518a2') in 0.004119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 57.128724 seconds.
+  path: Assets/Audio/Sound/Birds/Black/abdmb-43xhb.ogg
+  artifactKey: Guid(bc5d00bf8c6e826458f4a6c44db97387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Birds/Black/abdmb-43xhb.ogg using Guid(bc5d00bf8c6e826458f4a6c44db97387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3869a86e4076db551ea74e4c71b43e2b') in 0.100222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.489048 seconds.
+  path: Assets/Audio/Sound/Birds/Black/BlackBirdHurt.ogg
+  artifactKey: Guid(348a835b8082fe740a5c7ed00a41142b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Birds/Black/BlackBirdHurt.ogg using Guid(348a835b8082fe740a5c7ed00a41142b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '733359b162c7c63c025722d4af57fd57') in 0.018486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.012554 seconds.
+  path: Assets/Audio/Sound/Birds/Black/BlackBirdSkill.ogg
+  artifactKey: Guid(d17b92663c9e28b4bb40cbdb5892cdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Birds/Black/BlackBirdSkill.ogg using Guid(d17b92663c9e28b4bb40cbdb5892cdd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e64409d132cea93bbddcba3ea9d278') in 0.027556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 49.355059 seconds.
+  path: Assets/Audio/Sound/Birds/White/1smhv-fmtme.ogg
+  artifactKey: Guid(e1c8974ee4ab441439f302c1d4e8d83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Birds/White/1smhv-fmtme.ogg using Guid(e1c8974ee4ab441439f302c1d4e8d83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebed3af0118b382282e402fb2589026b') in 0.016294 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.430105 seconds.
+  path: Assets/Audio/Sound/Birds/White/WhiteBirdHurt.ogg
+  artifactKey: Guid(d163213468a0198409577465e691b406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Birds/White/WhiteBirdHurt.ogg using Guid(d163213468a0198409577465e691b406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38c6ac3f4d4e4978c7091d657aaa77b') in 0.017426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006657 seconds.
+  path: Assets/Audio/Sound/Birds/White/WhiteBirdSkill.ogg
+  artifactKey: Guid(edbb3ba544c9cb04c8a8e4e4a2088df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Birds/White/WhiteBirdSkill.ogg using Guid(edbb3ba544c9cb04c8a8e4e4a2088df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c540d6498055d53770744405494c235d') in 0.019250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Audio/Sound/Birds/White/WhiteBirdYell.ogg
+  artifactKey: Guid(a544b6c3b0e4e644ebd23dadb029afc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Birds/White/WhiteBirdYell.ogg using Guid(a544b6c3b0e4e644ebd23dadb029afc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67f226fdecb3a66348d66bda6c656297') in 0.013475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Audio/Sound/Birds/White/WhiteBirdSelect.ogg
+  artifactKey: Guid(886f3455efac49346baa7d194002e76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Birds/White/WhiteBirdSelect.ogg using Guid(886f3455efac49346baa7d194002e76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685397d13f0e9595224ce26a25b3217d') in 0.013776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.732984 seconds.
+  path: Assets/Audio/Sound/Menu/UISelcet.ogg
+  artifactKey: Guid(985712607c11f3f47bf050158cfb2c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Menu/UISelcet.ogg using Guid(985712607c11f3f47bf050158cfb2c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74c89b4b62b6c91ee00948eb26fa323') in 0.011784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.722777 seconds.
+  path: Assets/Audio/Sound/Pigs/PigDamage2.ogg
+  artifactKey: Guid(a1fc041b95030524bbaea3bee82c99ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Pigs/PigDamage2.ogg using Guid(a1fc041b95030524bbaea3bee82c99ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844726174b1cf72f20a015db4b74d23f') in 0.014614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Audio/Sound/Pigs/PigDestroy.ogg
+  artifactKey: Guid(5e3479708ac4ba24f8ce0e7b1ed8f71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Pigs/PigDestroy.ogg using Guid(5e3479708ac4ba24f8ce0e7b1ed8f71a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78beaa011672a659c7285756bded72f9') in 0.012495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Audio/Sound/Pigs/PigSing1.ogg
+  artifactKey: Guid(17efd5ce243695d4ab9ec82198f426aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Pigs/PigSing1.ogg using Guid(17efd5ce243695d4ab9ec82198f426aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d917a10d491f83fa6f89065cd3aea7') in 0.016190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.809542 seconds.
+  path: Assets/Audio/Sound/Sling/Shot/LightShot.ogg
+  artifactKey: Guid(77f6879c03e5e534d8aaefa56fca9427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Sling/Shot/LightShot.ogg using Guid(77f6879c03e5e534d8aaefa56fca9427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb980b73f5b8a0ac53fe5f082ab8cb8') in 0.013008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.851141 seconds.
+  path: Assets/Audio/Sound/Obstacle/Wood/WoodDestroy.ogg
+  artifactKey: Guid(66a33f1a8766e3646800abd65943a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Obstacle/Wood/WoodDestroy.ogg using Guid(66a33f1a8766e3646800abd65943a5fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '872f13d97bb73520bb899d03574e46ce') in 0.016321 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.294251 seconds.
+  path: Assets/Audio/Sound/Obstacle/Rock/RockDestroy.ogg
+  artifactKey: Guid(ec9e99336f482ba40a6a5cf135f7a0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Obstacle/Rock/RockDestroy.ogg using Guid(ec9e99336f482ba40a6a5cf135f7a0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29656fb4d98587d7de7bdc57c4cebe76') in 0.033738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.331359 seconds.
+  path: Assets/Audio/Sound/Obstacle/Glass/GlassDestroy.ogg
+  artifactKey: Guid(b5a25831178231c47af6a225c6eac871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Obstacle/Glass/GlassDestroy.ogg using Guid(b5a25831178231c47af6a225c6eac871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd0e3b5a72a93e8dd6872d7a2235805f') in 0.011503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.487958 seconds.
+  path: Assets/Audio/Sound/Effect/EggBoom.ogg
+  artifactKey: Guid(7fd8e5902b3301d48bba39a9b875c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/Sound/Effect/EggBoom.ogg using Guid(7fd8e5902b3301d48bba39a9b875c08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f24c2b260f4475e395b273d96b8edc9b') in 0.013759 seconds 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 9 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 9 unused Assets / (19.7 KB). Loaded Objects now: 2131.
+Memory consumption went from 43.1 MB to 43.1 MB.
+Total: 10.517900 ms (FindLiveObjects: 0.286800 ms CreateObjectMapping: 0.322400 ms MarkObjects: 9.840300 ms  DeleteObjects: 0.066700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
